@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0412F2CA2609FD660031F17A /* TimeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0412F2C92609FD660031F17A /* TimeCounter.swift */; };
 		045CB1A92609EAE800E53F73 /* ColorSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045CB1A82609EAE800E53F73 /* ColorSlider.swift */; };
 		04F34AA72609E20F00BF4DED /* RedBullEyeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F34AA62609E20F00BF4DED /* RedBullEyeApp.swift */; };
 		04F34AA92609E21000BF4DED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F34AA82609E21000BF4DED /* ContentView.swift */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0412F2C92609FD660031F17A /* TimeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCounter.swift; sourceTree = "<group>"; };
 		045CB1A82609EAE800E53F73 /* ColorSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSlider.swift; sourceTree = "<group>"; };
 		04F34AA32609E20F00BF4DED /* RedBullEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedBullEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F34AA62609E20F00BF4DED /* RedBullEyeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedBullEyeApp.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				04F34AA62609E20F00BF4DED /* RedBullEyeApp.swift */,
 				04F34AA82609E21000BF4DED /* ContentView.swift */,
 				045CB1A82609EAE800E53F73 /* ColorSlider.swift */,
+				0412F2C92609FD660031F17A /* TimeCounter.swift */,
 				04F34AAA2609E21400BF4DED /* Assets.xcassets */,
 				04F34AAF2609E21400BF4DED /* Info.plist */,
 				04F34AAC2609E21400BF4DED /* Preview Content */,
@@ -265,6 +268,7 @@
 				04F34AA92609E21000BF4DED /* ContentView.swift in Sources */,
 				045CB1A92609EAE800E53F73 /* ColorSlider.swift in Sources */,
 				04F34AA72609E20F00BF4DED /* RedBullEyeApp.swift in Sources */,
+				0412F2CA2609FD660031F17A /* TimeCounter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
