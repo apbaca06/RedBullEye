@@ -23,8 +23,7 @@ struct ContentView: View {
                 HStack {
                     VStack {
                         Color(red: rTarget, green: gTarget, blue: bTarget)
-                        Text("Match this color!")
-                            .padding()
+                        showAlert ? Text("R:\(Int(rTarget * 255)) G:\(Int(gTarget * 255)) B:\(Int(bTarget * 255))").padding() : Text("Match this color!").padding()
                     }
                     VStack {
                         Color(red: rGuess, green: gGuess, blue: bGuess)
@@ -33,7 +32,7 @@ struct ContentView: View {
                     }
                 }
                 Button(action: {
-                    showAlert = true 
+                    showAlert = true
                 }) {
                     Text("Hit me!")
                 }.alert(isPresented: $showAlert, content: {
