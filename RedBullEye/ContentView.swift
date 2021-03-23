@@ -24,6 +24,8 @@ struct ContentView: View {
     @State var bGuess: Double
     @State var showAlert = false
     
+    @ObservedObject var timer = TimeCounter()
+    
     var body: some View {
         NavigationView {
             VStack {
@@ -35,7 +37,7 @@ struct ContentView: View {
                     VStack {
                         ZStack {
                             Color(red: rGuess, green: gGuess, blue: bGuess)
-                            Text("60")
+                            Text(String(timer.counter))
                                 .padding(.all, 5)
                                 .background(Color.white)
                                 .mask(Circle())
@@ -47,6 +49,7 @@ struct ContentView: View {
                 }
                 Button(action: {
                     showAlert = true
+                    timer.killTimer()
                 }) {
                     Text("Hit me!")
                 }.alert(isPresented: $showAlert, content: {
