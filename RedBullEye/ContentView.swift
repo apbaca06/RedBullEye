@@ -12,6 +12,13 @@ struct ContentView: View {
     let rTarget = Double.random(in: 0..<1)
     let gTarget = Double.random(in: 0..<1)
     let bTarget = Double.random(in: 0..<1)
+    
+    /*
+     You normally don't use @State variables in a reusable view—use @Binding or @ObservedObject instead.
+     You should create a private @State var only if the view should own the data, like the highlighted property of Button.
+     Think about whether the data should be owned by a parent view or by an external source.
+
+     */
     @State var rGuess: Double
     @State var gGuess: Double
     @State var bGuess: Double
@@ -26,7 +33,14 @@ struct ContentView: View {
                         showAlert ? Text("R:\(Int(rTarget * 255)) G:\(Int(gTarget * 255)) B:\(Int(bTarget * 255))").padding() : Text("Match this color!").padding()
                     }
                     VStack {
-                        Color(red: rGuess, green: gGuess, blue: bGuess)
+                        ZStack {
+                            Color(red: rGuess, green: gGuess, blue: bGuess)
+                            Text("60")
+                                .padding(.all, 5)
+                                .background(Color.white)
+                                .mask(Circle())
+                                .foregroundColor(.black)
+                        }
                         Text("R:\(Int(rGuess * 255)) G:\(Int(gGuess * 255)) B:\(Int(bGuess * 255))")
                             .padding()
                     }
