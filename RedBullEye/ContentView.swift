@@ -61,6 +61,11 @@ struct ContentView: View {
                     ColorSlider(value: $gGuess, textColor: .green )
                     ColorSlider(value: $bGuess, textColor: .blue )
                 }
+                NavigationLink(
+                    destination: ViewControllerRepresentation(),
+                    label: {
+                        Text("Play Bulls Eye")
+                    })
             }
         }
         .navigationBarTitle("")
