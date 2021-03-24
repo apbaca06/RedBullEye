@@ -10,6 +10,7 @@
 		0412F2CA2609FD660031F17A /* TimeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0412F2C92609FD660031F17A /* TimeCounter.swift */; };
 		0412F2E5260AEBE80031F17A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0412F2E3260AEBE80031F17A /* Main.storyboard */; };
 		0412F2E6260AEBE80031F17A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0412F2E4260AEBE80031F17A /* ViewController.swift */; };
+		0412F2EB260AED3C0031F17A /* ColorUISlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0412F2EA260AED3C0031F17A /* ColorUISlider.swift */; };
 		045CB1A92609EAE800E53F73 /* ColorSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045CB1A82609EAE800E53F73 /* ColorSlider.swift */; };
 		04F34AA72609E20F00BF4DED /* RedBullEyeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F34AA62609E20F00BF4DED /* RedBullEyeApp.swift */; };
 		04F34AA92609E21000BF4DED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F34AA82609E21000BF4DED /* ContentView.swift */; };
@@ -40,6 +41,7 @@
 		0412F2C92609FD660031F17A /* TimeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCounter.swift; sourceTree = "<group>"; };
 		0412F2E3260AEBE80031F17A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		0412F2E4260AEBE80031F17A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0412F2EA260AED3C0031F17A /* ColorUISlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorUISlider.swift; sourceTree = "<group>"; };
 		045CB1A82609EAE800E53F73 /* ColorSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSlider.swift; sourceTree = "<group>"; };
 		04F34AA32609E20F00BF4DED /* RedBullEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedBullEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F34AA62609E20F00BF4DED /* RedBullEyeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedBullEyeApp.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				04F34AA62609E20F00BF4DED /* RedBullEyeApp.swift */,
 				04F34AA82609E21000BF4DED /* ContentView.swift */,
 				045CB1A82609EAE800E53F73 /* ColorSlider.swift */,
+				0412F2EA260AED3C0031F17A /* ColorUISlider.swift */,
 				0412F2C92609FD660031F17A /* TimeCounter.swift */,
 				0412F2E3260AEBE80031F17A /* Main.storyboard */,
 				0412F2E4260AEBE80031F17A /* ViewController.swift */,
@@ -272,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0412F2EB260AED3C0031F17A /* ColorUISlider.swift in Sources */,
 				0412F2E6260AEBE80031F17A /* ViewController.swift in Sources */,
 				04F34AA92609E21000BF4DED /* ContentView.swift in Sources */,
 				045CB1A92609EAE800E53F73 /* ColorSlider.swift in Sources */,
