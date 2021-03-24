@@ -10,17 +10,17 @@ import SwiftUI
 struct ColorSlider: View {
     
     @Binding var value: Double
-   var textColor: Color
+   var textColor: UIColor
     
     var body: some View {
         HStack {
             Text("0")
-                .foregroundColor(textColor)
-            Slider(value: $value)
-                .background(textColor)
+                .foregroundColor(Color(textColor))
+            ColorUISlider(color: textColor, value: $value)
+                .background(Color(textColor))
                 .cornerRadius(10)
             Text("255")
-                .foregroundColor(textColor)
+                .foregroundColor(Color(textColor))
         }.padding(.horizontal)
     }
 }
