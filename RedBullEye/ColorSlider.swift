@@ -24,3 +24,9 @@ struct ColorSlider: View {
         }.padding(.horizontal)
     }
 }
+
+struct ColorSlider_Preview: PreviewProvider {
+    static var previews: some View {
+        ColorSlider(value: .constant(0.2), textColor: .red)
+    }
+}
